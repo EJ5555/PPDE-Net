@@ -4,8 +4,8 @@ import numpy as np
 import torch
 import timeout_decorator
 from aTEAM.optim import NumpyFunctionInterface
-from scipy.optimize.lbfgsb import fmin_l_bfgs_b as lbfgsb
-from scipy.optimize.slsqp import fmin_slsqp as slsqp
+from scipy.optimize import fmin_l_bfgs_b as lbfgsb
+from scipy.optimize import fmin_slsqp as slsqp
 from scipy.optimize import fmin_bfgs as bfgs
 import conf,setenv,initparameters
 #%%
